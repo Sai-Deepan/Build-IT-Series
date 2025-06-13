@@ -3,50 +3,252 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <title>Deepan Sai | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+            </div>
+            <div class="logo">Logo</div>
+            <a href="#" class="resume-btn">Resume</a>
+        </div>
+    </nav>
 
-    <main>
-        <section id="hero">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Explore my work and skills in technology.</p>
-        </section>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Tech Journey<br>and Passion</h1>
+            <p>I'm Deepan Sai, a tech enthusiast with a passion for creating innovative solutions. When I'm not coding, you can find me playing guitar, reading, or shooting hoops.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary">Learn</button>
+                <button class="btn btn-secondary">Connect</button>
+            </div>
+        </div>
+    </section>
 
-        <section id="introduction">
-            <h2>About Me</h2>
-            <p>Brief introduction about yourself and your journey in the tech world.</p>
-        </section>
+    <section class="innovator">
+        <div class="tag">Innovator</div>
+        <div class="content-wrapper">
+            <div class="content-left">
+                <h2>My Journey in Technology<br>and Learning</h2>
+                <p>As a tech enthusiast, I thrive on exploring new technologies and building innovative solutions. Currently, I'm diving deep into full stack development and machine learning, constantly expanding my skill set.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">Learn</button>
+                    <button class="btn btn-outline">Connect</button>
+                </div>
+            </div>
+            <div class="content-right">
+                <img src="src/assets/profile.jpg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
 
-        <section id="skills-preview">
-            <h2>My Skills</h2>
-            <p>A quick overview of the technologies I work with.</p>
-        </section>
+    <section class="innovative-solutions">
+        <h2>Innovative Solutions: Merging technology<br>with creativity to solve real-world<br>problems.</h2>
+        <div class="solutions-grid">
+            <div class="solution-card">
+                <i class="solution-icon">⚡</i>
+                <h3>Passionate Learner</h3>
+                <h4>Continuously exploring new technologies and enhancing my skill set.</h4>
+                <p>I thrive on building impactful projects that bridge gaps in technology.</p>
+                <a href="#" class="learn-link">Learn →</a>
+            </div>
+            <div class="solution-card">
+                <i class="solution-icon">👥</i>
+                <h3>Collaborative Spirit</h3>
+                <h4>Working with teams to bring ideas to life.</h4>
+                <p>Teamwork fuels my passion for tech and enhances project outcomes.</p>
+                <a href="#" class="learn-link">Join →</a>
+            </div>
+            <div class="solution-card">
+                <i class="solution-icon">💡</i>
+                <h3>Tech Enthusiast</h3>
+                <h4>Always on the lookout for the latest innovations.</h4>
+                <p>I embrace challenges and enjoy experimenting with cutting-edge technologies.</p>
+                <a href="#" class="learn-link">Explore →</a>
+            </div>
+        </div>
+    </section>
 
-        <section id="projects-preview">
-            <h2>Featured Projects</h2>
-            <p>Highlight some of your key projects with links to more details.</p>
-        </section>
-    </main>
+    <section class="expertise">
+        <div class="content-left">
+            <h2>Explore My<br>Technical<br>Expertise and<br>Tools</h2>
+            <p>I specialize in a variety of technologies that empower my projects. From coding to database management, I continuously expand my skill set.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary">Learn More</button>
+                <a href="#" class="view-projects">View Projects →</a>
+            </div>
+        </div>
+        <div class="content-right">
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="icon">JS</div>
+                    <h3>Programming Languages<br>and Frameworks I Use</h3>
+                    <p>I work with Python, JavaScript, and more.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">DB</div>
+                    <h3>Database Technologies<br>I'm Proficient In</h3>
+                    <p>MySQL is my go-to for database management.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">FE</div>
+                    <h3>Frontend Technologies<br>That Enhance My Projects</h3>
+                    <p>I utilize Bootstrap for responsive design.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">CL</div>
+                    <h3>Continuous Learning<br>and Growth in Tech</h3>
+                    <p>I'm always exploring new tools and frameworks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2>Project Showcase</h2>
+        <p>Explore my latest projects and their detailed descriptions.</p>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="src/assets/project1.jpg" alt="Project 1">
+            </div>
+            <div class="project-card">
+                <img src="src/assets/project2.jpg" alt="Project 2">
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Peer Feedback</h2>
+        <p>Deepan's work ethic is truly inspiring and motivating.</p>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Deepan consistently delivers high-quality results on time."</p>
+                <div class="reviewer">
+                    <img src="src/assets/reviewer1.jpg" alt="Alice Johnson">
+                    <div class="reviewer-info">
+                        <h4>Alice Johnson</h4>
+                        <p>Project Manager, TechCorp</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"His passion for technology shines through every project."</p>
+                <div class="reviewer">
+                    <img src="src/assets/reviewer2.jpg" alt="Mark Smith">
+                    <div class="reviewer-info">
+                        <h4>Mark Smith</h4>
+                        <p>Lead Developer, InnovateX</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Working with Deepan is a breath of fresh air!"</p>
+                <div class="reviewer">
+                    <img src="src/assets/reviewer3.jpg" alt="Sarah Lee">
+                    <div class="reviewer-info">
+                        <h4>Sarah Lee</h4>
+                        <p>Intern, CodeLab</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certifications">
+        <h2>Showcase of My Achievements and<br>Certifications</h2>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <img src="src/assets/cert1.jpg" alt="Learning Journey">
+                <h3>Recognizing My Journey in Tech and Learning</h3>
+                <p>I have earned several certifications that highlight my skills and dedication.</p>
+                <a href="#" class="learn-more">Learn More →</a>
+            </div>
+            <div class="cert-card">
+                <img src="src/assets/cert2.jpg" alt="Certifications">
+                <h3>Certifications That Empower My Tech Journey</h3>
+                <p>These certifications reflect my commitment to continuous learning and growth.</p>
+                <a href="#" class="learn-more">View →</a>
+            </div>
+            <div class="cert-card">
+                <img src="src/assets/cert3.jpg" alt="Achievements">
+                <h3>Achievements That Showcase My Skills and Knowledge</h3>
+                <p>I take pride in my accomplishments that demonstrate my expertise.</p>
+                <a href="#" class="learn-more">Explore →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume">
+        <div class="resume-content">
+            <h2>Download My Resume</h2>
+            <p>Access my CV to learn more about my skills and experiences in tech and development.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary">Download</button>
+                <button class="btn btn-secondary">Contact</button>
+            </div>
+        </div>
+        <div class="resume-image">
+            <img src="src/assets/team.jpg" alt="Team">
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        <div class="contact-section">
+            <div class="contact-card">
+                <i class="icon">✉️</i>
+                <h3>Email</h3>
+                <p>Get in touch with me for collaborations or inquiries!</p>
+                <a href="mailto:deepan@example.com">deepan@example.com</a>
+            </div>
+            <div class="contact-card">
+                <i class="icon">📞</i>
+                <h3>Phone</h3>
+                <p>Feel free to call me anytime!</p>
+                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+            </div>
+            <div class="contact-card">
+                <i class="icon">📍</i>
+                <h3>Office</h3>
+                <p>I work remotely but am available for meetings.</p>
+                <p>456 Tech Ave, Chennai TN 600032 IN</p>
+            </div>
+        </div>
+        <div class="footer-nav">
+            <div class="logo">Logo</div>
+            <div class="footer-links">
+                <a href="#">GitHub Profile</a>
+                <a href="#">Blog Posts</a>
+                <a href="#">My Projects</a>
+                <a href="#">Contact Me</a>
+                <a href="#">Resume Download</a>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">TW</a>
+                <a href="#" class="social-icon">LI</a>
+                <a href="#" class="social-icon">YT</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Deepan Sai. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Cookie Settings</a>
+            </div>
+        </div>
     </footer>
 
-    <script src="js/main.js"></script>
-    <script src="js/animations.js"></script>
+    <script src="src/js/main.js"></script>
 </body>
 </html>
